@@ -8,3 +8,6 @@ npx prisma init --datasource-provider [mysql | postgresql | mongo]
 
 ## prisma migration
 npx prisma migrate dev --name "name"
+
+## run service 
+node --watch server.js
